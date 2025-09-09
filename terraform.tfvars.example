@@ -1,0 +1,9 @@
+resource_group_name = "rg-aiml-platform-prod"
+location           = "East US"
+
+tags = {
+  Environment = "production"
+  Project     = "aiml-platform"
+  Owner       = "ml-team"
+  CostCenter  = "engineering"
+}
